@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>_Nerix</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" id="brand" href="" data-i18n-label="brand">
+    <span class="logo-head"><i></i><i></i></span>
+    <span class="sep"></span>
+    <span class="nick">_Nerix</span>
+  </a>
+  <nav class="nav"></nav><!-- сюда позже добавим страницы -->
+  <div class="lang" role="group" data-i18n-label="langLabel">
+    <button type="button" data-lang="ru"><img src="assets/flags/ru.svg" alt=""><span>RU</span></button>
+    <button type="button" data-lang="en"><img src="assets/flags/en.svg" alt=""><span>EN</span></button>
+  </div>
+</header>
+
+<main class="stage">
+  <div class="head3d" id="head3d" aria-hidden="true"><div class="cube" id="cube"></div></div>
+  <p class="hint" data-i18n="hint"></p>
+</main>
+
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
